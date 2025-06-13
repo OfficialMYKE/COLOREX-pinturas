@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colorex - registro</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html"><img class="colorex" src="images/logo/Logo-colorex.png" alt="Colorex" ></a>
+      </div>
+      <div class="search-container">
+        <div class="search-bar">
+          <input type="text" placeholder="Search anything..." class="search-input">
+        </div>
+      </div>
+      <div class="top-bar">
+        <div class="icon-circle"><i class="fas fa-history"></i></div>
+        <div class="icon-circle"><i class="fas fa-heart"></i></div>
+        <div class="icon-circle"><i class="fas fa-user"></i></div>
+        <div class="login-info">
+          <span>BIENVENIDO</span>
+          <span> <a class="user" href="login.html">INICIAR SESIÓN</a> / <a class="user" href="register.html">REGISTRARSE</a></span>
+        </div>
+        <div class="cart">
+          <div class="icon-circle">
+            <i class="fas fa-shopping-bag"></i>
+            <div class="badge">5</div>
+          </div>
+          <div class="cart-info">
+            <span>CARRITO</span>
+            <span>$1,689.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <!-- Navigation -->
+    <div class="navbar">
+        <div class="nav-left">
+          <div class="dropdown">
+            <div class="dropdown-button">Otros Productos <i class="fas fa-chevron-down"></i></div>
+            <div class="dropdown-content">
+              <a href="#">Pinturas Interiores</a>
+              <a href="#">Pinturas Exteriores</a>
+              <a href="#">Pinturas Para Autos</a>
+              <a href="#">Brochas y Rodillos</a>
+              <a href="#">Suministros de Pintura</a>
+            </div>
+          </div>
+          <div class="nav-links">
+            <a href="products.html">Productos</a>
+            <a href="#">Nosotros</a>
+            <a href="contactos.html">Contacto</a>
+          </div>
+        </div>
+        <div class="nav-right">
+          <span>En línea 24/7</span> <strong>(+593) 98 463 8360</strong>
+        </div>
+      </div>
+
+  <!-- Main Content -->
+  <body>
+    <div class="container">
+      <h2>Registrarse</h2>
+      <p>Vamos a prepararte para que puedas acceder a tu cuenta personal.</p>
+      <form>
+        <div class="row">
+          <div class="input-box">
+            <label>Nombre <span class="required">*</span></label>
+            <input type="text" required>
+          </div>
+          <div class="input-box">
+            <label>Apellido <span class="required">*</span></label>
+            <input type="text" required>
+          </div>
+        </div>
+        <div class="input-box">
+          <label>Correo Electrónico <span class="required">*</span></label>
+          <input type="email" required>
+        </div>
+        <div class="input-box">
+          <label>Teléfono <span class="opcional">(Opcional)</span></label>
+          <input type="tel">
+        </div>
+        <div class="input-box">
+          <label>Ciudad / Región <span class="required">*</span></label>
+          <select required>
+            <option value="ecuador">Ecuador (ECU)</option>
+            <!-- puedes añadir más países -->
+          </select>
+        </div>
+        <div class="input-box">
+          <label>Contraseña <span class="required">*</span></label>
+          <input type="password" required>
+        </div>
+        <div class="input-box">
+          <label>Confirmar Contraseña <span class="required">*</span></label>
+          <input type="password" required>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" id="terms">
+          <label for="terms">Acepto todos los <a class="terms-blue" href="#">Términos y Políticas de Privacidad</a></label>
+        </div>
+        <button type="submit">CREAR CUENTA</button>
+      </form>
+      <p class="login-text">¿Ya tienes una cuenta? <a class="terms-blue" href="login.html">Iniciar sesión</a></p>
+      <hr>
+      <p class="alt-text">Regístrate con</p>
+      <div class="social-buttons">
+        <button class="facebook"><img src="images/icons/facebook.png" alt=""></button>
+        <button class="google"><img src="images/icons/google.png" alt=""></button>
+        <button class="apple"><img src="images/icons/apple.png" alt=""></button>
+      </div>
+    </div>
+
+    <footer>
+        <div class="top-bar">
+          <div> <img src="images/icons/Icon_footer_2.png" alt="" class="icon_footer"> Envío gratuito en pedidos superiores a $99</div>
+          <div> Garantía de reembolso por 30 días</div>
+          <div> Productos 100% auténticos</div>
+          <div> <img src="images/icons/Icon_footer_1.png" alt="" class="icon_footer"> Opciones de pago flexibles</div>
+        </div>
+      
+        <div class="footer-content">
+          <div class="column">
+            <h4>Categorías Principales</h4>
+            <ul>
+              <li>Pinturas Interiores</li>
+              <li>Pinturas Exteriores</li>
+              <li>Pintura Automotriz</li>
+              <li>Impermeabilizante</li>
+              <li>Anticorrosivos</li>
+              <li>Selladores</li>
+              <li>Fijadores</li>
+            </ul>
+          </div>
+      
+          <div class="column">
+            <h4>Compañía</h4>
+            <ul>
+              <li>Nosotros</li>
+              <li>Contacto</li>
+              <li>Productos</li>
+              <li>Ubicación de las tiendas</li>
+            </ul>
+          </div>
+      
+          <div class="column">
+            <h4>Centro de Ayuda</h4>
+            <ul>
+              <li>Servicio al cliente</li>
+              <li>Política</li>
+              <li>Términos y condiciones</li>
+              <li>FAQs</li>
+              <li>Mi cuenta</li>
+              <li>Soporte de producto</li>
+            </ul>
+          </div>
+      
+            <div class="footer-contact">
+              <h4>Obtén un <span class="footer-highlight">10%</span> de descuento en tu primera compra</h4>
+              <a href="#">Política de Privacidad</a>
+              <p>Línea directa 24/7: <a href="tel:+593984638360">(+593) 98 463 8360</a></p>
+              <p>Horario de Trabajo: Lunes–Sábado: 9.00am - 5.00pm</p>
+              <p>Correo: <a href="mailto:colorex@gmail.com">colorex@gmail.com</a></p>
+            <div class="social">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+            <div class="payment-methods">
+              <img src="images/icons/paypal.png" alt="PayPal">
+              <img src="images/icons/mastercard.png" alt="MasterCard">
+              <img src="images/icons/visa.png" alt="Visa">
+              <img src="images/icons/stripe.png" alt="Stripe">
+              <img src="images/icons/klarna.png" alt="Klarna">
+            </div>
+            <p class="copyright">
+              © 2025 <strong>Colorex</strong>. All Rights Reserved
+            </p>
+      </footer>
+</body>
+</html>
